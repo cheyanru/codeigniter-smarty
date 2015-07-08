@@ -1,7 +1,7 @@
 <?php
 if (!defined('BASEPATH')) exit('No direct script access allowed');
 
-require_once( BASEPATH.'libraries/Smarty/libs/Smarty.class.php' );
+require_once( APPPATH.'libraries/Smarty/Smarty.class.php' );
 
 class CI_Smarty extends Smarty {
 public function __construct()
